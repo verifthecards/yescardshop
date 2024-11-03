@@ -1,0 +1,13 @@
+html,
+body {
+  background-color: #fff;
+  font-family: var(--font);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgba(14, 14, 14, 0.9333333333);
+}
+
+#testimonials {
+  background: linear-gradient(to top, rgba(202, 155, 226, 0.896) 40%, rgba(255, 255, 255, 0.996), rgba(255, 255, 255, 0.896));
+}/*# sourceMappingURL=main.css.map */

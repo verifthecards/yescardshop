@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <!-- Meta(Keywords, description, robots...) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+
+    <!-- SCSS files -->
+    <link rel="stylesheet" href="lib/animate.css">
+    <link rel="stylesheet" href="lib/tailwind.css">
+    <link rel="stylesheet" href="lib/animate.css">
+    <link rel="stylesheet" href="scss/var.scss">
+    <link rel="stylesheet" href="scss/main.scss">
+    <link rel="stylesheet" href="scss/import.scss">
+    <link rel="stylesheet" href="scss/components.scss">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Title of page -->
+    <title>Témoignages</title>
+</head>
+<style>
+    #category_card {
+        cursor: pointer;
+        transition: all 0.5s ease-in 0s;
+    }
+
+    #category_card:hover {
+        transform: translateY(10px);
+    }
+</style>
+
+<body class="h-full" style="font-family:Montserrat;">
+    <!-- Navigation -->
+    <header class="fixed top w-full p-0 sm:p-4 bg-white" style="z-index:1000;">
+        <div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+            <a class="block font-extrabold text-3xl" href="index.html">
+                Yescards Shop
+            </a>
+
+            <div class="flex flex-1 items-center justify-end md:justify-between">
+                <nav aria-label="Global" class="hidden md:block">
+                    <ul class="flex items-center gap-6" style="font-size:17px;" id="link">
+                        <li>
+                            <a class="text-gray-900 transition" href="index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-900 transition" href="yescards.html">Yescards</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-900 transition" href="bills.html">Billets</a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/33667525484/" class="flex gap-3 align-middle items-center">
+                                Notre WhatsApp
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="flex items-center gap-1">
+                    <div class="flex gap-3 sm:flex sm:gap-4">
+                        <a href="mailto:yescardshopmarket@gmail.com" aria-label=""
+                            class="inline-flex items-center">
+                            <img src="assets/icons/gmail.png" height="20" width="25">
+                        </a>
+                        <a href="https://t.me/housecards3" class="text-black">
+                            <img src="assets/icons/telegram.png" height="32" width="32">
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=33667525484" class="text-black">
+                            <img src="assets/icons/whatsapp.png" height="32" width="32">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="flex justify-around pt-40 pb-20">
+        <div class="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-8">
+            <div id="video-card">
+                <video controls width="400" style="height: 25vh;">
+                    <source src="assets/video/video (1).mp4">
+                </video>
+            </div>
+            <div id="video-card">
+                <video controls width="400" style="height: 25vh;">
+                    <source src="assets/video/video (2).mp4">
+                </video>
+            </div>
+            <div id="video-card">
+                <video controls width="400" style="height: 25vh;">
+                    <source src="assets/video/video (3).mp4">
+                </video>
+            </div>
+            <div id="video-card">
+                <video controls width="400" style="height: 25vh;">
+                    <source src="assets/video/video (4).mp4">
+                </video>
+            </div>
+            <div id="video-card">
+                <video controls width="400" style="height: 25vh;">
+                    <source src="assets/video/video.mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-0 relative hidden sm:flex flex-wrap justify-around p-40 lg:h-screen lg:items-center" id="marketing"
+        style="height:120vh;">
+        <div class="w-full h-full shadow-lg px-4 h-full bg-black py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24 rounded-l-lg"
+            id="write">
+            <div class="mx-auto max-w-lg text-left">
+                <p class="mt-4 text-gray-200">
+                    #getMoneyInSecurity
+                </p>
+                <h1 class="text-5xl text-white font-bold" style="line-height:1.2;">
+                    Obtenez facilement vos YESCARDS chez Lynxity
+                </h1>
+                <br><br>
+                <a href="yescards.html" class="btn text-white hover:shadow-lg rounded-full">
+                    <b class="text-white">Découvrir les catalogues</b>
+                </a>
+            </div>
+        </div>
+        <div class="relative shadow-lg h-96 w-full sm:h-96 lg:h-full lg:w-1/2">
+            <img alt="Welcome" src="assets/img/pic (2).jpg"
+                class="absolute inset-0 h-full w-full object-cover rounded-r-lg" />
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black pt-20" style="border-top: 0.7px solid #ddd;">
+        <div class="mx-auto w-full max-w-screen-xl">
+            <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Yescards Shop</h2>
+                    <ul class="text-gray-300">
+                        <li class="mb-4">
+                            <a href="testimonials.html" class="hover:underline">Témoignages</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="bills.html" class="hover:underline">Billets Euro</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="yescards.html" class="hover:underline">YESCARDS</a>
+                        </li>
+                        <li>
+                            <div class="gtranslate_wrapper"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Centre d'aide</h2>
+                    <ul class="text-gray-300">
+                        <li class="mb-4">
+                            <a href="" class="hover:underline">Forum</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">FAQ</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="mailto:dupontf858@gmail.com" class="hover:underline">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Légalité</h2>
+                    <ul class="text-gray-300">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Mentions légales</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">CGU</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Termes &amp; Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Télécharger</h2>
+                    <ul class="text-gray-300">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">iOS</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Android</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="justify-between px-4 py-6 bg-black md:flex md:items-center md:justify-between"
+                style="border-top:0.7px solid #ddd">
+                <span class="text-sm text-gray-200 sm:text-center">© 2024 <a href="#">Yescards Shop</a>. Tous droits reservés.
+                </span>
+                <div class="flex mt-4 space-x-5 sm:justify-center md:mt-0">
+                    <a href="https://t.me/housecards3" class="text-black">
+                        <img src="assets/icons/telegram.png" height="32" width="32">
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=33667525484" class="text-black">
+                        <img src="assets/icons/whatsapp.png" height="32" width="32">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS files -->
+    <script src="src/js/app.js"></script>
+    <script src="src/js/form.js"></script>
+    <script src="src/js/loader.js"></script>
+    <script src="lib/vue.js"></script>
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script>
+        window.gtranslateSettings = { "default_language": "fr", "languages": ["fr", "de", "it", "es", "en"], "wrapper_selector": ".gtranslate_wrapper", "flag_style": "3d" }
+    </script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/flags.js" defer></script>
+</body>
+
+</html>

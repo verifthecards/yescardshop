@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <!-- Meta(Keywords, description, robots...) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+
+    <!-- SCSS files -->
+    <link rel="stylesheet" href="lib/animate.css">
+    <link rel="stylesheet" href="lib/tailwind.css">
+    <link rel="stylesheet" href="lib/animate.css">
+    <link rel="stylesheet" href="scss/var.scss">
+    <link rel="stylesheet" href="scss/main.scss">
+    <link rel="stylesheet" href="scss/import.scss">
+    <link rel="stylesheet" href="scss/components.scss">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+
+    <!-- Title of page -->
+    <title>Yescards Shop - Commandez vos cartes en toute sécurité</title>
+</head>
+
+<body class="h-full">
+    <!-- Navigation -->
+    <header class="fixed top w-full p-0 sm:p-4 bg-white" style="z-index:1000;">
+        <div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+            <a class="block font-extrabold text-3xl" href="index.html">
+                Yescards Shop
+            </a>
+
+            <div class="flex flex-1 items-center justify-end md:justify-between">
+                <nav aria-label="Global" class="hidden md:block">
+                    <ul class="flex items-center gap-6" style="font-size:17px;" id="link">
+                        <li>
+                            <a class="text-gray-900 transition" href="index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-900 transition" href="yescards.html">Yescards</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-900 transition" href="bills.html">Billets</a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/33667525484/" class="flex gap-3 align-middle items-center">
+                                Notre WhatsApp
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="flex items-center gap-1">
+                    <div class="flex gap-3 sm:flex sm:gap-4">
+                        <a href="mailto:yescardshopmarket@gmail.com" aria-label=""
+                            class="inline-flex items-center">
+                            <img src="assets/icons/gmail.png" height="20" width="25">
+                        </a>
+                        <a href="https://t.me/housecards3" class="text-black">
+                            <img src="assets/icons/telegram.png" height="32" width="32">
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=33667525484" class="text-black">
+                            <img src="assets/icons/whatsapp.png" height="32" width="32">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br><br>
+    <div class="flex justify-center">
+        <div class="text-center text-gray-800 py-20 px-6 bg-transparent">
+            <h1 class="max-w-4xl text-black text-center mb-4 text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl">Découvrez tous nos packages de YesCards avec tarifs</h1>
+        </div>
+    </div>
+    <div class="flex flex-wrap justify-around pt-10" id="price_grid" style="padding-bottom:80px;">
+        <div class="grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-8" id="show">
+            <div class="w-auto sm:mt-auto mt-56 p-8 shadow-lg rounded-lg border border-gray-300">
+                <p class="text-4xl font-bold flex align-middle items-center" id="price">
+                    <b class="font-extrabold">Les différentes YesCards</b>
+                </p>
+                <ul class="w-full mt-6 mb-6 text-lg text-gray-700">
+                    <li class="mb-3 flex items-center ">
+                        <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                            stroke="currentColor" fill="#10b981" viewBox="0 0 1792 1792">
+                            <path
+                                d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                            </path>
+                        </svg>
+                        Prix : 1500€ ➡️ 36000€ de retrait
+                    </li>
+                    <li class="mb-3 flex items-center ">
+                        <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                            stroke="currentColor" fill="#10b981" viewBox="0 0 1792 1792">
+                            <path
+                                d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                            </path>
+                        </svg>
+                        Prix : 1750 € ➡️ 42000€ de retrait
+                    </li>
+                    <li class="mb-3 flex items-center ">
+                        <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                            stroke="currentColor" fill="#10b981" viewBox="0 0 1792 1792">
+                            <path
+                                d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                            </path>
+                        </svg>
+                        Prix : 2000 € ➡️ 48000€ de retrait 
+                    </li>
+                    <li class="mb-3 flex items-center ">
+                        <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                            stroke="currentColor" fill="#10b981" viewBox="0 0 1792 1792">
+                            <path
+                                d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                            </path>
+                        </svg>
+                        Prix :2500€ ➡️ 60000€ de retrait
+                    </li>
+                </ul>
+                <a href="https://wa.me/33667525484/" class="mt-8 inline-block rounded-full w-full px-12 py-3 text-sm text-center font-medium text-white transition hover:shadow-lg focus:outline-none focus:ring" style="background-color:var(--color);">
+                    Commander des yescards
+                </a>
+            </div>
+            <div class="w-auto sm:mt-auto mt-56 p-8 shadow-lg rounded-lg border border-gray-300">
+                <p class="text-4xl font-bold flex align-middle items-center" id="price">
+                    <b class="font-extrabold">Les différentes YesCards</b>
+                </p>
+                <ul class="w-full mt-6 mb-6 text-lg text-gray-700">
+                    <li class="mb-3 flex items-center ">
+                        <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                            stroke="currentColor" fill="#10b981" viewBox="0 0 1792 1792">
+                            <path
+                                d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                            </path>
+                        </svg>
+                        Prix : 500€ ➡️ 12000€ de retrait
+                    </li>
+                    <li class="mb-3 flex items-center ">
+                        <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                            stroke="currentColor" fill="#10b981" viewBox="0 0 1792 1792">
+                            <path
+                                d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                            </path>
+                        </svg>
+                        Prix : 750 € ➡️ 18000€ de retrait
+                    </li>
+                    <li class="mb-3 flex items-center ">
+                        <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                            stroke="currentColor" fill="#10b981" viewBox="0 0 1792 1792">
+                            <path
+                                d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                            </path>
+                        </svg>
+                        Prix : 1000 € ➡️ 24000€ de retrait
+                    </li>
+                    <li class="mb-3 flex items-center ">
+                        <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                            stroke="currentColor" fill="#10b981" viewBox="0 0 1792 1792">
+                            <path
+                                d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                            </path>
+                        </svg>
+                        Prix : 1250 € ➡️ 30000€ de retrait
+                    </li>
+                </ul>
+                <a href="https://wa.me/33667525484/" class="mt-8 inline-block rounded-full w-full px-12 py-3 text-sm text-center font-medium text-white transition hover:shadow-lg focus:outline-none focus:ring" style="background-color:var(--color);">
+                    Commander des yescards
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-wrap justify-around mb-10 p-4 sm:p-20 sm:-mt-20 -mt-20">
+        <p class="max-w-6xl text-2xl p-auto sm:p-8">
+            As-tu déjà entendu parlé des cartes Yes? Sais-tu ce que c'est ?
+            <br><br>
+            enfaite c'est comme des cartes bancaires sauf qu'elles sont clonées et du genre on insère une somme à l'intérieur que tu peux retirer dans n'importe quel distributeur automatique du coup c'est comme une multiplication d'argent, si tu commande une carte de 500€ par exemple à l'intérieur de cette carte on insère 12000€ et chaque jour tu peux effectuer un retrait de 1000 par carte jusqu'à atteindre la somme contenue dans la carte.
+            <br><br>
+            Question: pourquoi est-ce que vous n'allez pas au guichet pour procéder vous même aux différents retraits ?
+            <br><br>
+            Réponse: tout simplement parce que nous avons des centaines de cartes clonées et faire autant de retraits pour une seule personne est très risqué. Donc nous faisons le moins de retraits possible et nous vendons plus de cartes possible car ça permet de faire un maximum de bénéfices tout en prenant le maximum de risque possible.
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black pt-20" style="border-top: 0.7px solid #ddd;">
+        <div class="mx-auto w-full max-w-screen-xl">
+            <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Yescards Shop</h2>
+                    <ul class="text-gray-300">
+                        <li class="mb-4">
+                            <a href="testimonials.html" class="hover:underline">Témoignages</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="bills.html" class="hover:underline">Billets Euro</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="yescards.html" class="hover:underline">YESCARDS</a>
+                        </li>
+                        <li>
+                            <div class="gtranslate_wrapper"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Centre d'aide</h2>
+                    <ul class="text-gray-300">
+                        <li class="mb-4">
+                            <a href="" class="hover:underline">Forum</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">FAQ</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="mailto:dupontf858@gmail.com" class="hover:underline">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Légalité</h2>
+                    <ul class="text-gray-300">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Mentions légales</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">CGU</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Termes &amp; Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase">Télécharger</h2>
+                    <ul class="text-gray-300">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">iOS</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Android</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="justify-between px-4 py-6 bg-black md:flex md:items-center md:justify-between"
+                style="border-top:0.7px solid #ddd">
+                <span class="text-sm text-gray-200 sm:text-center">© 2024 <a href="#">Yescards Shop</a>. Tous droits reservés.
+                </span>
+                <div class="flex mt-4 space-x-5 sm:justify-center md:mt-0">
+                    <a href="https://t.me/housecards3" class="text-black">
+                        <img src="assets/icons/telegram.png" height="32" width="32">
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=33667525484" class="text-black">
+                        <img src="assets/icons/whatsapp.png" height="32" width="32">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS files -->
+    <script src="src/js/app.js"></script>
+    <script src="src/js/form.js"></script>
+    <script src="src/js/loader.js"></script>
+    <script src="lib/vue.js"></script>
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script>
+        window.gtranslateSettings = { "default_language": "fr", "languages": ["fr", "de", "it", "es", "en"], "wrapper_selector": ".gtranslate_wrapper", "flag_style": "3d" }
+    </script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/flags.js" defer></script>
+</body>
+
+</html>
